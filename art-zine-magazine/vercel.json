@@ -1,6 +1,8 @@
 {
-    "buildCommand": "cd art-zine-magazine && bun run build",
+    "buildCommand": "cd art-zine-magazine && bun add next && bun run build",
     "outputDirectory": "art-zine-magazine/.next",
     "devCommand": "cd art-zine-magazine && bun run dev",
-    "installCommand": "cd art-zine-magazine && bun install"
+    "installCommand": "cd art-zine-magazine && bun install",
+    "framework": "nextjs",
+    "rootDirectory": "art-zine-magazine"
   }
